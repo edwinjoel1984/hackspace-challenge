@@ -2,13 +2,12 @@
     height: 52px;
     background-color: #f8f8f8;
     width: 100%;
-    margin-bottom: 50px;
 }
 .header nav{
     padding: 0;
 }
 .header .navbar-brand{
-    width: 100px;
+    width: 117px;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -28,6 +27,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #777777;    
+        text-align: center;
 }
 .header .collapse .navbar-collapse{
     height: 52px;
@@ -45,4 +45,9 @@
 }
 .header ul li a.active{
     background-color: #e7e7e7;
+}
+.header ul li .badge{
+    min-width: 27px;
+    border-radius: 9px;;
+    background-color: #999999;
 }
